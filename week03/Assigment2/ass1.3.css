@@ -1,0 +1,32 @@
+table{
+    width: 100%;
+    border-spacing: 0px;
+}
+table td {
+    padding: 15px;
+    background-color: #eee;
+    border: 1px solid white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table thead td{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: color white;
+
+}
+.view,
+.del{
+    background-color: rgb(74, 178, 232);
+    color: white;
+    border: none;
+    padding: 4px;
+    margin: 4px;
+}
+.del{
+    background-color: rgb(231, 177, 231);
+  
+}

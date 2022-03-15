@@ -1,0 +1,21 @@
+p{
+    background-color: #ccc;
+    padding: 15px;
+    width: 500px;
+    position: relative;
+    margin:20px auto;
+    border-right: 5px solid red;
+    counter-increment: paragraph;
+    position: relative;
+}
+p::before{
+    content: counter(paragraph);
+    padding: 15px;
+    background-color: red;
+    position: absolute;
+    left: -14px;
+    /* height: 100%; */
+    top:0px;
+    text-align: center;
+    color: white;
+}

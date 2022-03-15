@@ -1,0 +1,12 @@
+body{
+    border: 5px solid red;
+}
+
+div{
+    margin: 40px;
+    padding: 25px;
+    border: inherit;
+    text-align: center;
+    background-color: #eee;
+
+}
